@@ -127,3 +127,25 @@ button {
     width: 160px;
     height: 160px;
 }
+
+/* QUOTE */
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding: 7em 13em;
+}
+
+.quote em {
+    font-size: 36px;
+    font-weight: 100;
+    color: #1f2937;
+}
+
+.quote p {
+    align-self: flex-end;
+    font-weight: bolder;
+    font-size: 24px;
+    color: #1f2937;
+}
